@@ -58,5 +58,3 @@ Evaluating this interaction lattice across the first 200 consecutive zeros ($t_1
 ├── LICENSE                                     # MIT License
 └── README.md                                   # Repository documentation
 
-License
-This repository is licensed under the MIT License for code and scripts. The accompanying research paper and datasets are distributed under the Creative Commons Attribution 4.0 International (CC-BY-4.0) license.
