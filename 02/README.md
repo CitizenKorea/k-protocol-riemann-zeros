@@ -58,7 +58,7 @@ Extending the pairwise 2D interference spectroscopy established in Part I, this 
 
 ```text
 02/
-├── Part2_Fock_Entanglement_Gauge_Rupture.pdf   # Complete Part II theoretical manuscript
+├── Prime_Phase_Interference_Riemann_Zeros2v2.pdf   # Complete Part II theoretical manuscript
 ├── 01_gue_level_repulsion.py                   # Pipeline 01: GUE level repulsion & Brody parameter
 ├── 02_fock_entanglement_transition.py         # Pipeline 02: Fock-space Von Neumann entanglement entropy
 ├── 03_nbody_algebraic_decoupling.py            # Pipeline 03: 5-body generating polynomial energy saturation
