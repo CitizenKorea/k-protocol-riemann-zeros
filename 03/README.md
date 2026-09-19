@@ -49,8 +49,8 @@ While Parts I and II uncovered microscopic pairwise interference and Fock-space 
 ```text
 03/
 ├── Quantum_ManyBody_Riemann_Spectral_Rigidity.pdf      # Complete Part III theoretical manuscript
-├── 01_pipeline_08_resolvent_bifurcation.py      # Real asymmetric resolvent tracking & bifurcation pipeline
-└── README.md                                    # Directory documentation
+├── 01_pipeline_08_resolvent_bifurcation.py             # Real asymmetric resolvent tracking & bifurcation pipeline
+└── README.md                                           # Directory documentation
 ```
 
 ---
