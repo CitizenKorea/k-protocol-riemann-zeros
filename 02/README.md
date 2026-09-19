@@ -66,7 +66,6 @@ Extending the pairwise 2D interference spectroscopy established in Part I, this 
 ├── 05_euler_maclaurin_tail_test.py             # Pipeline 05: Macro Euler-Maclaurin remainder tail coupling
 ├── 06_carleman_contour_blowup.py               # Pipeline 06: Littlewood-Jensen contour integral divergence
 ├── 07_reflection_gauge_hermiticity_rupture.py  # Pipeline 07: Proof of Hermiticity rupture for sigma != 1/2
-├── requirements.txt                            # Python environment dependencies
 └── README.md                                   # Directory documentation
 ```
 
