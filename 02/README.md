@@ -59,14 +59,14 @@ Extending the pairwise 2D interference spectroscopy established in Part I, this 
 ```text
 02/
 ├── Prime_Phase_Interference_Riemann_Zeros2v2.pdf   # Complete Part II theoretical manuscript
-├── 01_gue_level_repulsion.py                   # Pipeline 01: GUE level repulsion & Brody parameter
-├── 02_fock_entanglement_transition.py         # Pipeline 02: Fock-space Von Neumann entanglement entropy
-├── 03_nbody_algebraic_decoupling.py            # Pipeline 03: 5-body generating polynomial energy saturation
-├── 04_off_critical_stress_test.py              # Pipeline 04: Off-critical stability & saturation rupture
-├── 05_euler_maclaurin_tail_test.py             # Pipeline 05: Macro Euler-Maclaurin remainder tail coupling
-├── 06_carleman_contour_blowup.py               # Pipeline 06: Littlewood-Jensen contour integral divergence
-├── 07_reflection_gauge_hermiticity_rupture.py  # Pipeline 07: Proof of Hermiticity rupture for sigma != 1/2
-└── README.md                                   # Directory documentation
+├── 01_gue_level_repulsion.py                       # Pipeline 01: GUE level repulsion & Brody parameter
+├── 02_fock_entanglement_transition.py              # Pipeline 02: Fock-space Von Neumann entanglement entropy
+├── 03_nbody_algebraic_decoupling.py                # Pipeline 03: 5-body generating polynomial energy saturation
+├── 04_off_critical_stress_test.py                  # Pipeline 04: Off-critical stability & saturation rupture
+├── 05_euler_maclaurin_tail_test.py                 # Pipeline 05: Macro Euler-Maclaurin remainder tail coupling
+├── 06_carleman_contour_blowup.py                   # Pipeline 06: Littlewood-Jensen contour integral divergence
+├── 07_reflection_gauge_hermiticity_rupture.py      # Pipeline 07: Proof of Hermiticity rupture for sigma != 1/2
+└── README.md                                       # Directory documentation
 ```
 
 ---
