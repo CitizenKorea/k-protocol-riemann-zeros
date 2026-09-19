@@ -1,48 +1,45 @@
-# K-Protocol: Prime Phase Interference & Quantum Many-Body Dynamics of Riemann Zeros
+# K-Protocol: Unified Operator Theory & Superconductor Inverse Design Suite
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--3627--6997-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-3627-6997)
-[![Paper 1 DOI](https://img.shields.io/badge/Paper_1_DOI-10.5281%2Fzenodo.22763956-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22763956)
-[![Paper 2 DOI](https://img.shields.io/badge/Paper_2_DOI-10.5281%2Fzenodo.22804011-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22804011)
+[![Zenodo Master DOI](https://img.shields.io/badge/Zenodo_Master_DOI-10.5281%2Fzenodo.22804010-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22804010)
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white&style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Research_Preprint-blue?style=flat-square)
 
-> **"Deconstructing Critical Zeros into Unitary Prime Oscillators and Quantum Many-Body Rigidity"**  
-> An open-science research framework characterizing non-trivial zeros of the Riemann zeta function through microscopic prime-phase spectroscopy, quantum chaos, and effective field theory (EFT) decoupling along the critical line $\mathrm{Re}(s)=1/2$.
+> **"Deconstructing Riemann Zeros into Unitary Prime Oscillators and Real-Space Crystal Architectures"**  
+> An open-science research framework connecting microscopic prime-phase spectroscopy, many-body quantum chaos, and operator gauge dynamics along the critical line Re(s) = 1/2 to the first-principles inverse design of 2D high-Tc superconducting parents.
+
+---
+
+![K-Protocol Master Architecture](00_k_protocol_master_architecture.png)
 
 ---
 
 ## Repository Structure & Research Roadmap
 
-This repository is organized into independent, sequential research modules corresponding to each stage of the K-Protocol framework:
+This repository is organized into four independent, sequential research tiers corresponding to each phase of the unified framework:
 
-| Directory | Research Scope & Focus | Key Deliverables & Pipelines | Zenodo Record |
+| Directory | Scope & Analytical Focus | Key Deliverables & Methodologies | Core Milestone |
 | :--- | :--- | :--- | :--- |
-| [**`01/`**](./01) | **Paper 1: Prime Phase Interference Spectroscopy**<br>Pairwise 2D destructive interference, Selberg resonance trenches, and Riemann-Siegel baseline calibration across 200 consecutive zeros. | • Complete Paper 1 Manuscript (`.pdf`)<br>• `k_protocol_master.py` (2D Tensor survey)<br>• `prime_resonance_radar.py` (Resonance trenches)<br>• 1,000-record benchmark datasets (`.csv`) | [![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.22763956-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22763956) |
-| [**`02/`**](./02) | **Paper 2: Quantum Many-Body Rigidity & 5-Body Decoupling**<br>Fock-space multiparticle generating polynomials, GUE level repulsion ($s^2$ rigidity), entanglement phase transitions, and sub-critical breakdown. | • Complete Paper 2 Manuscript (`.pdf`)<br>• `01_gue_level_repulsion.py` (GUE Wigner surmise)<br>• `02_fock_entanglement_transition.py` (+21.6% surge)<br>• `03_nbody_algebraic_decoupling.py` (99.8% saturation)<br>• `04_off_critical_stress_test.py` (Off-line breakdown) | [![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.22804011-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22804011) |
+| [**`01/`**](./01) | **Part I: Prime Phase Interference Spectroscopy**<br>Pairwise 2D destructive interference, Selberg resonance trenches, and Riemann-Siegel baseline calibration across 200 consecutive zeros. | • Full Theoretical Manuscript (`.pdf`)<br>• 2D interaction tensor survey (`k_protocol_master.py`)<br>• Selberg resonance trench sweep (`prime_resonance_radar.py`) | IR Potential Basin ($(p,q \le 7)$ captures 85.5% of zeros) |
+| [**`02/`**](./02) | **Part II: Fock Coherence & Operator Gauge Stability**<br>Brody spectral rigidity, bipartite Fock-space entanglement phase transitions, and machine-precision Hermiticity rupture. | • Full Theoretical Manuscript (`.pdf`)<br>• GUE spacing & Coulomb barrier (`02_01_gue_level_repulsion.py`)<br>• Entanglement entropy transition (`02_02_fock_entanglement_transition.py`)<br>• Operator Hermiticity rupture (`02_07_reflection_gauge_hermiticity_rupture.py`) | +21.6% Entanglement surge; Exact Hermiticity iff $\sigma = 1/2$ |
+| [**`03/`**](./03) | **Part III: Quantum Many-Body Rigidity & Bifurcation**<br>5-body Effective Field Theory (EFT) truncation proofs, resolvent singular wells, and complex pitchfork bifurcation dynamics. | • Full Theoretical Manuscript (`.pdf`)<br>• Real asymmetric resolvent tracking (`03_01_pipeline_08_resolvent_bifurcation.py`)<br>• Algebraic residue bound derivations | Lemma 1 ($k \le 5$ saturates 99.88%); Theorem 2 (Discriminant inversion) |
+| [**`04/`**](./04) | **Part IV: Materials Inverse Design Engine**<br>Mapping 5-body EFT truncation to solid-state $MX_4$ plaquettes, apical steric gauge isolation, and automated DFT generation. | • Full Materials Science Manuscript (`.pdf`)<br>• Screening & QE automation (`04_01_k_protocol_miner.py`)<br>• 61-compound candidate database (`k_protocol_master_db.json`) | Blind re-discovery of $Sr_2CuO_2Cl_2$; Zero cross-plane dispersion |
 
 ---
 
 ## Core Scientific Highlights
 
-1. **Pairwise 2D Phase Spectroscopy (Paper 1):**  
-   Resolves the modulus squared $|P(1+it)|^2$ into an exact hyperbolic amplitude envelope $A_{pq} = 2/(pq)$[cite: 6]. Proves that low-frequency primes ($p, q \le 7$) govern 85.5% of destructive phase resonance leaders across critical zeros[cite: 6].
-2. **GUE Spectral Rigidity from Microscopic Primes (Paper 2):**  
-   Demonstrates that nearest-neighbor spacing distributions $P(s)$ derived purely from prime interference matrices converge directly to Dyson-Montgomery GUE level repulsion ($P(0)=0$), ruling out Poissonian clustering.
-3. **Fock-Space Entanglement Phase Transition (Paper 2):**  
-   Identifies a sharp +21.6% surge in Von Neumann entanglement entropy across bipartite Fock subspaces at exact zero crossings, characterizing critical zeros as macroscopic phase-locking transitions.
-4. **Effective 5-Body Decoupling Floor (Paper 2):**  
-   Establishes that interaction orders $k \le 5$ saturate $>99.8\%$ of total multiparticle energy on $\sigma = 1/2$, while off-critical shifts ($\sigma < 1/2$) trigger severe sub-critical energy divergence.
+1. **Microscopic Phase Interference (Part I):** Resolves the prime Dirichlet series modulus into an exact hyperbolic amplitude envelope $A_{pq} = 2/(pq)$, demonstrating that low-frequency primes govern destructive interference nodes.
+2. **Operator Gauge Hermiticity (Part II):** Proves that the reflection gauge operator $A_{pq}(s) \equiv p^{-s}q^{-(1-s)}$ strictly preserves Hermiticity if and only if $\sigma = 1/2$, exhibiting catastrophic operator leakage off the critical boundary.
+3. **Analytic 5-Body EFT Truncation (Part III):** Formulates Lemma 1, proving that interaction orders $k \le 5$ saturate $>99.87\%$ of multi-particle energy with an algebraic residue bound $R_{\ge 6} < 2.3 \times 10^{-7}$.
+4. **Autonomous Materials Discovery (Part IV):** Enforces planar $C_4$ 5-body coordination and apical isolation ($c/a \ge 3.60, r_Y/r_X \ge 1.25$) under electroneutrality, autonomously identifying 61 parent compounds and independently validating the canonical benchmark $Sr_2CuO_2Cl_2$.
 
 ---
 
 ## Quick Start & Reproduction
 
-Each directory maintains an independent virtual environment specification and execution workflow.
+Dependencies across all analytical pipelines require standard Python scientific computing libraries:
 
-### Running Paper 1 Pipelines
 ```bash
-cd 01
-pip install -r requirements.txt
-python k_protocol_master.py
-python prime_resonance_radar.py
+pip install numpy scipy mpmath matplotlib
