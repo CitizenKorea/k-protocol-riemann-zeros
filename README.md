@@ -1,7 +1,7 @@
 # K-Protocol: Unified Operator Theory & Superconductor Inverse Design Suite
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--3627--6997-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-3627-6997)
-[![Zenodo Master DOI](https://img.shields.io/badge/Zenodo_Master_DOI-10.5281%2Fzenodo.22804010-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22804010)
+[![Zenodo Master DOI](https://img.shields.io/badge/Zenodo_Master_DOI-10.5281%2Fzenodo.22763956-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22763956)
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white&style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Research_Preprint-blue?style=flat-square)
@@ -79,7 +79,7 @@ python 01_k_protocol_miner.py --database k_protocol_master_db.json --generate-qe
   title        = {{K-Protocol Unified Research Suite: From Analytic Number Theory to 2D High-Tc Superconducting Inverse Design (Parts I--IV)}},
   howpublished = {Zenodo},
   year         = {2026},
-  doi          = {10.5281/zenodo.22804010},
-  url          = {[https://doi.org/10.5281/zenodo.22804010](https://doi.org/10.5281/zenodo.22804010)}
+  doi          = {10.5281/zenodo.22763956},
+  url          = {[https://doi.org/10.5281/zenodo.22763956](https://doi.org/10.5281/zenodo.22763956)}
 }
 ```
