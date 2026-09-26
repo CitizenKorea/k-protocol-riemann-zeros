@@ -66,6 +66,67 @@ Part III establishes the analytical bridge between the microscopic quantum chaos
 ├── 02_01_verify_k_protocol_rigor.py                           # Independent test suite (Theorems 1-2, Lemma 1, Fock surge)
 ├── 02_02_k_protocol_cayley_jensen_solver.py                   # Cayley unitary defect, unit-disk escape & blowup solver
 ├── 02_03_verify_uniform_lindelof_rupture.py                   # 8,001-node Simpson quadrature & Dini uniformity audit
-├── 02_04_verify_dirichlet_ball_arithmetic_unified.py          # 35-digit Arb-standard ball arithmetic CAP engine
 ├── 02_04_protocol_cayley_jensen_unified.png                   # 3-panel publication diagnostic plot
+├── 02_04_verify_dirichlet_ball_arithmetic_unified.py          # 35-digit Arb-standard ball arithmetic CAP engine
 └── README.md                                                  # Directory documentation
+```
+
+---
+
+## Execution & Verification Workflow
+
+Run the test suite and analytical solvers sequentially:
+
+```bash
+# 1. Resolvent Singular Well & Complex Pitchfork Bifurcation
+python 01_pipeline_08_resolvent_bifurcation.py
+
+# 2. Comprehensive 4-Tier Independent Verification Suite (Theorems 1-2, Lemma 1, Fock)
+python 02_01_verify_k_protocol_rigor.py
+
+# 3. Cayley Operator Unitary Defect & Multi-Scale Energy Explosion Solver
+python 02_02_k_protocol_cayley_jensen_solver.py
+
+# 4. Rigorous L2 Simpson Quadrature vs. Phragmén-Lindelöf Ceiling (Dini Audit)
+python 02_03_verify_uniform_lindelof_rupture.py
+
+# 5. 35-Digit Complex Ball Arithmetic Engine (Monodromy Invariance CAP)
+python 02_04_verify_dirichlet_ball_arithmetic_unified.py
+```
+
+### Expected Verification Suite Output Summary (`02_01`):
+```text
+================================================================================
+ [FINAL VERIFICATION SUMMARY REPORT]
+================================================================================
+  [1] Theorem 1 & Corollary 1 (Hermiticity & Leakage Divergence) : PASS
+  [2] Theorem 2 (Full Lattice Asymmetric Operator Bifurcation)  : PASS
+  [3] Lemma 1 (EFT 5-Body Saturation & Exponential Bound)        : PASS
+  [4] Fock Coherence (Entropy Surge & Autonomous Trapping)       : PASS
+================================================================================
+  >>> SYSTEM INTEGRITY CERTIFIED: ALL CORE PROOFS CONVERGE NUMERICALLY.
+```
+
+---
+
+## Diagnostic Visualizations
+
+The unified solver generates `02_04_protocol_cayley_jensen_unified.png`, illustrating:
+* **Panel (a):** Exact V-shape collapse of the Cayley unitary defect norm to machine precision ($\Vert{}\mathcal{U}^\dagger \mathcal{U} - I\Vert{}_F = 2.82 \times 10^{-15}$) strictly at $\sigma = 0.50$.
+* **Panel (b):** Preservation of eigenvalues on the unit circle $\vert{}z\vert{} = 1$ at $\sigma = 0.50$ versus spectral exit into the unit disk interior at $\sigma = 0.65$.
+* **Panel (c):** Multi-scale boundary energy explosion ($N = 40 \to 300$) shattering the Phragmén-Lindelöf convexity ceiling and defining the uniform **Analytic Contradiction Zone** for $\sigma_0 < 0.50$.
+
+---
+
+## Citation
+
+```bibtex
+@misc{k_protocol_master_suite_2026,
+  author       = {{A Citizen of the Republic of Korea}},
+  title        = {{K-Protocol Unified Research Suite: From Analytic Number Theory to 2D High-Tc Superconducting Inverse Design (Parts I--IV)}},
+  howpublished = {Zenodo},
+  year         = {2026},
+  doi          = {10.5281/zenodo.22763956},
+  url          = {[https://doi.org/10.5281/zenodo.22763956](https://doi.org/10.5281/zenodo.22763956)}
+}
+```
