@@ -11,7 +11,7 @@
 
 ---
 
-![K-Protocol Master Architecture](00_k_protocol_master_architecture.png)
+![K-Protocol Master Architecture](k_protocol_master_architecture.png)
 
 ---
 
