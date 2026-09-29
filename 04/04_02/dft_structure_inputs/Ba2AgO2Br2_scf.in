@@ -1,0 +1,30 @@
+&CONTROL
+    calculation = 'scf'
+    prefix = 'Ba2AgO2Br2'
+    outdir = './out_Ba2AgO2Br2/'
+    pseudo_dir = './pseudo/'
+/
+&SYSTEM
+    ibrav = 7, celldm(1) = 8.843918, celldm(3) = 3.829060
+    nat = 7, ntyp = 4, ecutwfc = 60.0, ecutrho = 480.0
+    occupations = 'smearing', smearing = 'gaussian', degauss = 0.01
+/
+&ELECTRONS
+    conv_thr = 1.0d-8, mixing_beta = 0.4
+/
+ATOMIC_SPECIES
+  Ag  107.87  Ag.pbe-d-kjpaw_psl.1.0.0.UPF
+  O  15.999  O.pbe-n-kjpaw_psl.1.0.0.UPF
+  Br  79.904  Br.pbe-n-kjpaw_psl.1.0.0.UPF
+  Ba  137.33  Ba.pbe-spn-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS (crystal)
+  Ag  0.000000  0.000000  0.000000
+  O  0.000000  0.500000  0.000000
+  O  0.500000  0.000000  0.000000
+  Br  0.000000  0.000000  0.161830
+  Br  0.000000  0.000000 -0.161830
+  Ba  0.000000  0.000000  0.346540
+  Ba  0.000000  0.000000 -0.346540
+
+K_POINTS (automatic)
+  8 8 2 0 0 0
